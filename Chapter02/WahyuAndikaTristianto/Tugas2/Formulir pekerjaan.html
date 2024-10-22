@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulir Pekerjaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    
+
+<h2>Formulir Pekerjaan</h2>
+<form action="/submit" method="post">
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="posisi">Posisi yang Dilamar:</label>
+    <select id="posisi" name="posisi" required>
+        <option value="Modder">Modder</option>
+        <option value="Sound Design">Sound Design</option>
+        <option value="Unity Enginer">Unity Enginer</option>
+        <option value="3D Modeling">3D Modeling</option>
+    </select>
+
+    <label for="cv">CV (Lampiran PDF):</label>
+    <input type="file" id="cv" name="cv" accept=".pdf" required>
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+    <button type="submit">Kirim</button>
+</form>
+
 </body>
 </html>
