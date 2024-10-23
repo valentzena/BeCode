@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style> 
+        body {
+            font-family: 'Segoe UI';
+            padding: 1rem 2rem; margin: 0;
+            font-weight: 600;
+
+        } 
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+</head>
+<body>
+    <h1>Open Recruitmen</h1>
+    <h4>Staff Himpunan Mahasiswa Teknik Informatika</h4>
+    <form action="submit.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" required/>
+        <br>
+        <label for="nim">NIM</label>
+        <input type="number" id="number" required/>
+        <br>
+        <label for="jurusan">Jurusan</label>
+        <input type="radio" id="D4 Teknik Informatika"
+        name="jurusan" value="DIPLOMA4"/>
+        <label for="D4 Teknik Informatika">D4 Teknik Informatika</label>
+        <input type="radio" id="D3 Teknik Informatika"
+        name="jurusan" value="DIPLOMA3"/>
+        <label for="D3 Teknik Informatika">D3 Teknik Informatika</label>
+    </form>
+    <form action="/action_page.php">
+        <input type="checkbox"
+        id="skill1"
+        name="skill1" 
+        value="languange skill"
+        > <label for="skill1"> I can HTML </label><br>
+        </form>
+        <input type="checkbox"
+        id="skill2"
+        name="skill2" 
+        value="languange skill"
+        > <label for="skill2"> I can CSS </label><br>
+        </form>
+        <input type="checkbox"
+        id="skill3"
+        name="skill3" 
+        value="languange skill"
+        > <label for="skill3"> I can Javascript </label><br>
+        </form>
+        <h5 style="color: rgb(27, 26, 26);">Motivasi Masuk Himpunan</h5>
+        <form action="action_page.php">
+            <textarea name="reason" 
+            id="reason"
+            style="height: 50px; 
+            width: 200px;">
+            </textarea>
+            <input type="submit"
+            value="submit">
+        </form>
+</body>
+</html>
