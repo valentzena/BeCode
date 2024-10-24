@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran UKM</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #333;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: black;
+        color: #f0f0f0;
+        padding: 14px 20px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+   </style>
+</head>
+<body>
+    <h1>Formulir Pendaftaran UKM</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Nama Lengkap :</label>
+        <input type="text" id="name"name="name" required>
+        <br>
+        <label for="ttl">Tempat, Tanggal Lahir :</label>
+        <input type="text" id="ttl" name="tempat_tanggal_lahir" required>
+        <br>
+        <label for="npm">NPM :</label>
+        <input type="text" id="npm" name="npm" required>
+        <br>
+        <label for="prodi">Program Studi:</label> 
+    <select id="prodi" name="prodi" required>
+        <option value="">Pilih Program Studi</option>
+        <option value="Teknik Informatika (D4)">Teknik Informatika (D4)</option>
+        <option value="Manajemen Bisnis (D3)">Manajemen Bisnis (D3)</option>
+        <option value="Manajemen Logistik (D3)">Manajemen Logistik (D3)</option>
+        <option value="Akuntansi (D3)">Akuntansi (D3)</option>
+        <option value="Logistik Bisnis (D4)">Logistik Bisnis (D4)</option>
+    </select>
+        <br>
+        <label for="no_hp">No. HP :</label>
+        <input type="text" id="no_hp" name="no_hp" required>
+        <br>
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label for="position">UKM yag dipilih :</label> <br>
+        <input type="radio" id="english club" name="position" value="english club">
+        <label for="english club">English Club</label><br>
+        <input type="radio" id="seni tari" name="position" value="seni tari">
+        <label for="seni tari">Seni Tari</label> <br>
+        <input type="radio" id="k-radio" name="position" value="k-radio">
+        <label for="k-radio">K-radio</label> <br>
+        <input type="radio" id="gempar" name="position" value="gempar">
+        <label for="gempar">Gempar</label> <br>
+        <input type="radio" id="basket" name="position" value="basket">
+        <label for="basket">BSSSasket</label>
+        <br>
+        <label for="Pengalaman_organisasi">Pengalaman Organisasi :</label> <br>
+        <textarea name="Pengalaman_organisasi" id="Pengalaman_organisasi" rows="4" cols="50"></textarea>
+        <br>
+        <label for="motivasi">Motivasi Mengikuti UKM :</label> <br>
+        <textarea name="motivasi" id="motivasi" rows="4" cols="50"></textarea>
+    </form>
+    <button type="submit">Submit</button>
+</body>
+</html>

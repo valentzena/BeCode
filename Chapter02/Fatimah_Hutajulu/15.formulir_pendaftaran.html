@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Pendaftaran UKM PMK</h1>
+    <form action="submit.php" method="post">
+
+        <label for="nama"><b>Nama Depan</b>:</label>
+        <input type="text" id="nama" nama="nama" required /> <br />
+
+        <label for="nama"><b>Nama Belakang</b>:</label>
+        <input type="text" id="nama" name="nama" required />
+        <br />
+
+       <label for="jur"><b>Jurusan</b>:</label>
+        <select id="jurusan" name="jurusan" required>
+            <option value="">Pilih Jurusan:</option>
+            <option value="teknik Informatika">D-4 Teknik Informatika</option>
+            <option value="ti">D-3 Teknik Informatika</option>
+            <option value="logbis">Logistik Bisnis</option>
+            <option value="Manlog">Manajemen Logistik</option>
+            <option value="Manbis">Manajemen Bisnis</option>
+            <option value="akuntansi">Akuntansi</option>
+            <option value="adlog">Administrasi Logistik</option>
+        </select>
+
+        <br \>
+        <label for="angkatan"><b>Angkatan</b>:</label>
+         <select id="thn" name="angkatan">
+            <option value="">Angkatan</option>
+            <option value="th">2024</option>
+            <option value="th">2023</option>
+            <option value="th">2022</option>
+         </select>
+        <br />
+       
+        <label for="jen. kel"><b>Jenis Kelamin</b>:</label>
+        <select id="jenkel" name="jenis kelamin">
+        <option value="">Jenis Kelamin</option>
+        <option value="wanita">Wanita</option>
+        <option value="Pria">Pria</option>
+    </select>
+        <br />
+
+        <label for="asal sek"><b>Asal Sekolah</b>:</label>
+        <input type="asek" id="asek" name="asal sekolah" required />
+        <br />
+       
+        <label for="daerah asal"><b>Daerah Asal</b>:</label>
+        <input type="daeas" id="daeas" name="daerah asal" required />
+        <br />
+
+        <label for="nim"><b>NIM</b>:</label>
+        <input type="nim" id="nim" name="Nim" required />
+        <br />
+
+        <label for="no.telp"><b>Nomor HP</b>:</label>
+        <input type="no.telp" id="no.telp" name="nomor hp" required />
+        <br />
+
+        <label for="email"><b>Email</b>:</label>
+        <input type="em" id="em" name="Email" required />
+        <br />
+        <label for="experience">Pengalaman:</label> <br />
+        <input type="radio" id="marturia" name="experience" value="Marturia">
+        <label for="Marturia">Marturia</label> <br />
+
+        <input type="radio" id="koinonia" name="experience" value="koinonia">
+        <label for="koinonia">Koinonia</label> <br />
+
+        <input type="radio" id="diakonia" name="experience" value="diakonia">
+        <label for="diakonia">Diakonia</label> <br />
+
+        <label for="comment">Alasan Mengikuti UKM PMK:</label> <br />
+        <textarea id="comment" name="comment" rows="7" cols="85"></textarea> <br />
+
+        <input type="submit" value="Daftar">
+
+        
+
+    </form>
+</div>
+</body>
+</html>
