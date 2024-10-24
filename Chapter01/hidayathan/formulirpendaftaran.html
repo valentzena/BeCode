@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #399cff;
+            margin: 0;
+            padding: 20px;
+        }
+         .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);        
+        }
+        .bombong{
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 105%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="bombong">Formulir Pendaftaran</h1>
+<form action="/submit" method="post">
+    <label for="name">Nama Lengkap:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="alamat">Alamat:</label>
+    <input type="text" id="alamat" alamat="Alamat" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Kata Sandi:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="gender">Jenis Kelamin:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Pria</option>
+        <option value="female">Wanita</option>
+        <option value="other">Lainnya</option>
+    </select>
+
+    <label for="dob">Tanggal Lahir:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <button type="submit">Daftar</button>
+</form> 
+</div>
+
+</body>
+</html>

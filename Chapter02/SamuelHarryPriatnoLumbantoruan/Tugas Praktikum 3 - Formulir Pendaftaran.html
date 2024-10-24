@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Pendaftaran</h1>
+        <form action="proses_pendaftaran.php" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+        </br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+        </br>
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+        </br>
+            <label for="jurusan">Jurusan:</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">Pilih jurusan</option>
+                <option value="informatika">Teknik Informatika</option>
+                <option value="sistem_informasi">Sistem Informasi</option>
+                <option value="manajemen_informatika">Manajemen Informatika</option>
+            </select>
+        </br>
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat Anda" required>
+        </br>
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="text" id="telepon" name="telepon" placeholder="Masukkan nomor telepon Anda" required>
+        </br>
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>

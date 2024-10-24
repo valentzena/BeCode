@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom styles */
+      .hero-section {
+        background: url("https://via.placeholder.com/1920x600") no-repeat center
+          center;
+        background-size: cover;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+      }
+
+      .course-card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .course-card:hover {
+        transform: scale(1.05);
+      }
+
+      .footer {
+        background-color: #f8f9fa;
+        padding: 30px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1>Welcome to Our Online Courses</h1>
+        <p>
+          Learn new skills from the comfort of your home with our expert
+          instructors.
+        </p>
+        <a href="#courses" class="btn btn-primary btn-lg">Browse Courses</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2>Why Choose Us?</h2>
+        <p class="lead">Explore the benefits of learning with us</p>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="bi bi-book-half display-4"></i>
+            <h4>Expert Instructors</h4>
+            <p>Learn from industry professionals with real-world experience.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-clock display-4"></i>
+            <h4>Flexible Learning</h4>
+            <p>Access courses anytime, anywhere at your own pace.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-award display-4"></i>
+            <h4>Certificate of Completion</h4>
+            <p>Receive a certificate for each course completed successfully.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Our Popular Courses</h2>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card course-card">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Course 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                  Learn to build modern, responsive websites using HTML, CSS,
+                  and JavaScript.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card course-card">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Course 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Science</h5>
+                <p class="card-text">
+                  Master data analysis and machine learning techniques.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card course-card">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Course 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">
+                  Become an expert in online marketing and grow your business.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Online Course Platform. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
