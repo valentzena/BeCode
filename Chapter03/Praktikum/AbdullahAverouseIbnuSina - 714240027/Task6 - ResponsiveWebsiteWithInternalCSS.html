@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebResponsiveWithInternalCSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aliceblue;
+        }
+
+        header {
+            background-color: aqua;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: aquamarine;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: azure;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .main-content {
+            flex: 70%;
+        }
+
+        .side-bar {
+            flex: 30%;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .main-content,
+            .side-bar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programming E-Learning</h1>
+        <p>Welcome to your first programming course.</p>
+    </header>
+    <nav>
+        <a href="#">Home Page</a>
+        <a href="#">About Us</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to Our Programming Course!</h2>
+            <p>
+                This is your first programming course, and it will help you understand the fundamentals of programming.
+                We will learn programming languages, fundamental principles, and how to start as a software developer.
+            </p>
+        </div>
+        <div class="side-bar">
+            <h3>Side Bar</h3>
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>CSS Basics</li>
+                <li>Learn JavaScript</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
