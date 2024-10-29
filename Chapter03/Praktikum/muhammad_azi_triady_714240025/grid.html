@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector css</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .item{
+        background-color: #3498db;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .spesial{
+        background-color: aquamarine;
+    }
+    #kotak{
+        background-color: blue;
+    }
+    .container p{
+        font-style: italic;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>BORDER CSS GRID</h1>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item spesial">Item 3 (spesial)</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item" id="kotak">Item (kotak)</div>
+    </div>
+    <p>Ini adalah contoh teks dalam class "container"</p>
+    <p>Ini adalah contoh teks di luar class "container"</p>
+</body>
+</html>
