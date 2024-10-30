@@ -24,3 +24,6 @@ Proyek ini adalah portofolio pribadi saya yang menampilkan informasi tentang dir
 
 ## Kontak
 Jika Anda memiliki pertanyaan atau saran, silakan hubungi saya di [wildankhairusunny@email.com](mailto:wildankhairusunny@email.com).
+
+## Link Github Pages
+- https://gibs952.github.io/portofolio.wildan.io/
