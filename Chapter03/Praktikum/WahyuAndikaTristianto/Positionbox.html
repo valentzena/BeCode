@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=JnpDTJ6l&id=B9519B6137BF287B00BFCE9F5E24313AA344B1F0&thid=OIP.JnpDTJ6l_0OZI5Bx2oSkIgHaEw&mediaurl=https%3a%2f%2fi2.wp.com%2fwww.komputermedia.com%2fwp-content%2fuploads%2f2018%2f10%2fBackground-Biru-HD.png%3fresize%3d678%252C435%26ssl%3d1&exph=435&expw=678&q=Background+biru+polos&simid=608021139258761868&FORM=IRPRST&ck=1F0076D4D85EBF0AAD4445C4B1BDF223&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: #3498db;
+            margin: 100px auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #e74c3c;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform 0.5s;
+        }
+        .box:hover {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
