@@ -1,2 +1,2 @@
 #CHAPTER 4
--Buat frontend untuk project masing masing kelompok
+Buat frontend untuk project masing masing kelompok
