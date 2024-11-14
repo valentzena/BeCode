@@ -1,14 +1,18 @@
 # BeCode
 Matakuliah Pemrograman Web Full Stack Developer
 
-# BeCode
-Matakuliah tentang Internal Audit dan IT Audit Series, akan mempelajari tentang bagaimana Pengelolaan Software Wuality Assurance, Integrating Testing, Security dan Audit
+Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dimana mahasiswa akan mendapatkan materi perkuliahan dan pengumpulan tugas pada repo ini
 
+# Deskripsi Perkuliahan dan Penilaian
+## Penilaian 
+| A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
+| -------- | -------- | -------- | -------- |-------- |-------- |-------- |
+| 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
 
 # git scm
 Download git-scm dari https://git-scm.com/downloads <br>
 Download VsCode <br>
-Download Xampp
+Download Xampp / Laragon
 
 ## Memasukan SSH Key
 Klik dulu profil github, Klik Setting, pilih SSH and GPG keys
@@ -35,3 +39,5 @@ to get ssh key in your computer, and put in your github or gitlab ssh key settin
 cat ~/.ssh/id_rsa.pub
 ```
 if there is no key appears, plese generate the key also set global config of git in next section and please add the public key to your github profile.
+
+
