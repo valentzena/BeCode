@@ -110,17 +110,24 @@
           onclick="document.getElementById('IMG').src='https://images.unsplash.com/photo-1632882765546-1ee75f53becb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'">
             Ini Buat balikin gambar
           </button>
+          <h1 class="mt-5 text-2xl italic">UNTUK ARITMETIKA KLIK CTRL+SHIFT+I</h1>
         </div>
         <img id="IMG" class="w-2/4 h-2/4 rounded-3xl" src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
       </div>
     <!-- INI CONTENT -->
 
+    <!-- INI CONTENT ARITMETIKA -->
+    <div class=" m-5 text-3xl">
+      
+    </div>
+    <!-- INI CONTENT ARITMETIKA END -->
+
     <!-- INI SCRIPT JS -->
     <script>
-      document.getElementById("demo").innerHTML =
-        "Selamat Datang, Hallo World! saya belajar JavaScript";
+    document.getElementById("demo").innerHTML =
+      "Selamat Datang, Hallo World! saya belajar JavaScript";
 
-      const x = document.getElementById("demo4");
+    const x = document.getElementById("demo4");
       function getLocation() {
         try {
           navigator.geolocation.getCurrentPosition(showPosition);
@@ -135,6 +142,25 @@
             position.coords.longitude;
         }
       }
+
+    function myFunction() {
+      let a = 1;
+      let b = 1;
+      let penjumlahan = a + B;
+      console.log("Penjumlahan:", penjumlahan);
+
+      let pengurangan = a - b; 
+      console.log("Pengurangan:", pengurangan);
+
+      let perkalian = a * b; 
+      console.log("Perkalian:", perkalian);
+
+      let pembagian = a / b; 
+      console.log("Pembagian:", pembagian);
+
+      let modulus = a % b; 
+      console.log("Modulus:", modulus);
+    }
     </script>
     <!-- INI SCRIPT JS END -->
   </body>
