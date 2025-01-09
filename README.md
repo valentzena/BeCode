@@ -40,4 +40,16 @@ cat ~/.ssh/id_rsa.pub
 ```
 if there is no key appears, plese generate the key also set global config of git in next section and please add the public key to your github profile.
 
+| NO | Ketua Kelompok | Nilai | Anggota |Nilai |
+| -------- | -------- | -------- | -------- |-------- |
+| 1 | Ugi |  |  |  | 
+| 2 | Samuel |  |  |  |
+| 3 | Wahyu |  |  |  |
+| 4 | Farizal |  |  |  |
+| 5 | Haikal |  |  |  |
+| 6 | Averouse |  |  |  |
+| 7 | Fikri |  |  |  |
+| 8 | Valen |  |  |  |
+| 9 | Aji |  |  |  |
+| 10 | Dafa |  |  |  |
 
