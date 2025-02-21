@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  .diamond-card {
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .diamond-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  .diamond-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #6a11cb;
+  }
+  .diamond-bonus {
+    font-size: 1rem;
+    color: #555;
+  }
+  .diamond-price {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  h3 {
+    color: #fff;
+  }
+
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(135deg, purple, yellow, blue);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 150px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Sesuaikan lebar form */
+}
+
+h2 {
+    color: purple;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group-text {
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: purple;
+    box-shadow: 0 0 5px rgba(128, 0, 128, 0.5);
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: darkviolet;
+    transform: translateY(-2px);
+}
+
+.form-check-label {
+    color: black;
+}
+
+.invalid-feedback {
+    display: block;
+    color: red;
+    font-size: 0.9em;
+}
